@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ses1"
+    tools:context=".P3" >
+
+  	 <LinearLayout
+  	      
+  	     android:orientation="vertical"
+  	     android:id="@+id/lineartip"
+  	     android:layout_width="wrap_content"
+  	     android:layout_height="wrap_content"
+  	     android:layout_alignParentLeft="true"
+  	     android:layout_alignParentRight="true"
+  	     android:gravity="center_horizontal">
+
+		    <TextView
+		        android:id="@+id/foodpro"
+				android:layout_gravity="center"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="@dimen/font_size"
+		        android:layout_marginTop="15dp"
+			    android:textColor="#E6E1C2"
+			    android:text="Food Providers" />
+
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/sep" />
+    
+	</LinearLayout>
+	
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/horizontalScrollView1"
+           android:background="#25FAFAFA"
+        android:fillViewport="true" >
+
+  <RelativeLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal" >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentRight="true"
+               android:gravity="center_horizontal" 
+               >
+
+
+            <Button
+                android:id="@+id/now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bnow" />
+
+            <Button
+                android:id="@+id/cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bcal" />
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/phone" />
+
+            <Button
+                android:id="@+id/bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bbus" />
+
+        </LinearLayout>
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/horizontalScrollView1"
+        android:layout_below="@+id/lineartip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" >
+
+        <LinearLayout
+            android:id="@+id/root_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ymk1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Donetello Pizza"
+                android:textColor="#CCCCCC"
+           android:textSize="@dimen/font_size" />
+			<Button
+                android:id="@+id/ymk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Meydan Dürüm"
+           android:textSize="@dimen/font_size"
+	            android:textColor="#CCCCCC"/>
+			<Button
+                android:id="@+id/ymk3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Renga Restaurant"
+           android:textSize="@dimen/font_size"
+	            android:textColor="#CCCCCC" />
+			<Button
+                android:id="@+id/ymk4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sandwich Dünyası" 
+           android:textSize="@dimen/font_size"
+	            android:textColor="#CCCCCC"/>
+			<Button
+                android:id="@+id/ymk5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Uğur Pide"
+           android:textSize="@dimen/font_size"
+	            android:textColor="#CCCCCC" />
+
+          
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

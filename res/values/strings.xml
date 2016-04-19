@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">METU NCC Cafeteria</string>
+	<string name="ses">What\'s on the Menu ?</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world"></string>
+    <string name="b1"></string>
+    <string name="b2"></string>
+    <string name="b3"></string>
+    <string name="date"></string>
+    <string name="date2"></string>
+    <string name="f1"></string>
+    <string name="f2"></string>
+    <string name="f3"></string>
+    <string name="f4"></string>
+    <string name="f5"></string>
+    <string name="f6"></string>
+    <string name="f7"></string>
+    <string name="title_activity_p2">Calendar Mode</string>
+    <string name="goster">Display</string>
+    <string name="s1">Donatello Pizza\n0533 846 36 95</string>
+    <string name="s2">Meydan Dürüm\n0533 845 50 24</string>
+    <string name="s3">Renga\n0533 857 48 48</string>
+    <string name="s4">Sandwich Dünyası\n0533 836 38 18</string>
+    <string name="s5">Uğur Pide\n0533 833 17 05</string>
+    <string name="smile"></string>
+    <string name="title_activity_p4">Bus Schedule</string>
+	<string name="title_activity_p3">Phone Numbers</string>
+</resources>

@@ -1,0 +1,91 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="246dp"  
+android:layout_height="150dp"  
+android:baselineAligned="false"  
+android:orientation="vertical"  
+android:id="@+id/main"
+android:background="@drawable/wb">
+   
+  
+<TextView  
+android:id="@+id/widget"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_gravity="center"  
+android:layout_marginTop="5dp"  
+android:text=""  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+<TextView  
+android:id="@+id/widget2"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_gravity="center"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+<TextView  
+android:id="@+id/widget3"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+
+<TextView  
+android:id="@+id/widget4"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+<TextView  
+android:id="@+id/widget5"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+<TextView  
+android:id="@+id/widget6"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+
+<TextView  
+android:id="@+id/widget7"  
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:layout_marginTop="5dp"  
+android:text="@string/f1"  
+android:textColor="#ffffff"  
+android:textSize="8sp"  
+android:typeface="sans" />
+
+
+
+    </LinearLayout>  
